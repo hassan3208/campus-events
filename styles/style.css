@@ -12,4 +12,30 @@ body {
   margin: 20px;
 }
 
-/* Add your styles below */
+nav {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
