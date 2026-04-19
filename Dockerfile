@@ -19,5 +19,5 @@ COPY . .
 # Expose Parcel default port
 EXPOSE 1234
 
-# Run the app
-CMD ["parcel", "src/index.html"]
+# Run the app (bind to all interfaces for Docker port forwarding)
+CMD ["parcel", "src/index.html", "--host", "0.0.0.0", "--port", "1234"]
